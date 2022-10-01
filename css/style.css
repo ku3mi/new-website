@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+html, body {
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   font-family: 'Anonymous Pro', monospace;
+ 
+
+}
+.fixed-container {
+   max-width: 1200px;
+   margin: 0 auto;
+   height: 100%;
+}
+.blue-container {
+   background-color: #3F2AFF;
+   color: white;
+   height: 420px;
+   margin-bottom: 60px;
+}
+header {
+   height: 100px;
+}
+a {
+   color: black;
+   text-decoration: none;
+   padding: 0 30px 0 0;
+}
+a:hover {
+   text-decoration: underline;
+}
+header > div {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+button {
+   padding: 15px 40px;
+   border-radius: 10px;
+}
+.button {
+   margin-bottom: 150px;
+}
+button:hover{
+   cursor: pointer;
+}
+.light-button {
+   background-color: transparent;
+   border: solid 1px black;
+}
+.dark-button { 
+   background-color: #3F2AFF;
+   border: solid 1px #3F2AFF;
+   color: white;
+}
+h1 {
+   font-size: 60px;
+   margin: 0 0 20px 0;
+}
+h2 {
+   font-size: 40px;
+}
+.price > h2 {
+   font-size: 50px;
+   padding: 55px 0;
+   margin:0;
+}
+.price > p {
+   font-size: 16px;
+}
+.subtitle {
+   margin: 0 0 30px 0;
+}
+
+.first-block > div {
+   height: 500px;
+   background-image: url('/img/img-one.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center right;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+.services {
+   margin: 60px 0;
+   height: 260px;
+   display: flex;
+   justify-content: space-between;
+}
+.services > div {
+   height: 260px;
+   width: 200px;
+   font-size: 16px;
+}
+.services img {
+   height: 175px;
+   width: 175px;
+   margin-bottom: 20px;
+}
+.examples {
+   margin: 40px 0;
+   display: flex;
+   justify-content: space-between;
+
+}
+.examples > div {
+   font-size: 16px;
+   width: 360px;
+}
+.examples img {
+   margin-bottom: 20px;
+   width: 360px;
+   height: 240px;
+}
+.price {
+   width: 790px;
+
+}
+.footer {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 50px;
+}
+.footer > div {
+  width: 290px;
+  font-size: 22px;
+}
+.footer >  {
+   margin-bottom: 19px;
+}
+.flex {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 45px;
+}
+
+
